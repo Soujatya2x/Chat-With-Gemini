@@ -3,7 +3,7 @@ import google.generativeai as genai
 import subprocess
 
 genai.configure(api_key="API_KEY") # Replace with your API key.
-model = genai.GenerativeModel('gemini-2.0-flash') # or 'gemini-pro-vision'
+model = genai.GenerativeModel('gemini-2.0-flash') 
 
 
 st.title("chat with google gemini")
